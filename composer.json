@@ -1,0 +1,31 @@
+{
+	"name": "phputil/core",
+	"type": "library",
+	"description": "Useful classes for PHP",
+	"keywords": [ "value cleaner", "string", "flag" ],
+	"homepage": "http://github.com/thiagodp/core",
+	"license": "MIT",
+	"authors": [ { "name": "Thiago Delgado Pinto" } ],
+	"support": {
+		"issues": "https://github.com/thiagodp/core/issues",
+		"source": "https://github.com/thiagodp/core"
+	},
+	"require": {
+		"php": ">=5.4"
+	},
+	"suggest": {
+		"phputil/json": "A better JSON encoder (and decoder) for PHP",	
+		"phputil/di": "Dependency injection for PHP",
+		"phputil/traits": "Useful PHP traits",
+		"phputil/TDateTime": "Powerful date and time classes for PHP.",
+		"phputil/pdowrapper": "A useful PDO wrapper.",
+		"phputil/session": "Object-oriented (web) session handling",		
+		"phputil/http": "HTTP headers, status codes, charsets, mimes, etc.",
+		"phputil/httpwrapper": "A wrapper for the PSR-7's ResponseInterface.",
+		"phputil/validator": "Easy and powerful validator for PHP.",		
+		"phputil/extenso": "Conversão de valores por extenso em PHP"
+	},
+	"autoload": {
+		"psr-4": { "phputil\\core\\": "lib/" }
+	}
+}
