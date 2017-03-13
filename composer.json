@@ -20,9 +20,11 @@
 		"phputil/TDateTime": "Powerful date and time classes for PHP.",
 		"phputil/pdowrapper": "A useful PDO wrapper.",
 		"phputil/session": "Object-oriented (web) session handling",		
+		"phputil/logger": "A very simple logger for PHP",
 		"phputil/http": "HTTP headers, status codes, charsets, mimes, etc.",
 		"phputil/httpwrapper": "A wrapper for the PSR-7's ResponseInterface.",
-		"phputil/validator": "Easy and powerful validator for PHP.",		
+		"phputil/validator": "Easy and powerful validator for PHP.",
+		"phputil/datatables": "PHP representation of Datatables' request and response.",
 		"phputil/extenso": "Conversão de valores por extenso em PHP"
 	},
 	"autoload": {
